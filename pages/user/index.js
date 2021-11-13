@@ -1,10 +1,13 @@
+import MainLayout from "../../components/MainLayout";
 
 export default function User(props) {
     const { users } = props;
     console.log(users);
     return (
         <div>
-            User
+            <MainLayout>
+                User
+            </MainLayout>
         </div>
     )
 }
